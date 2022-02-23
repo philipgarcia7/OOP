@@ -3,7 +3,11 @@ import PhoneClass as p
 
 def main():
 
-    my_phone = p.Phone("Apple", "12", 1000)
+    m = "Apple"
+    o = "iPhone 13"
+    r = 1000
+
+    my_phone = p.Phone(m, o, r)
 
     print("The manufacturer of the phone is:", my_phone.get__manufact())
 
